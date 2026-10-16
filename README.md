@@ -2,6 +2,8 @@
 
 `Pocket-Pico-HF-Packet-Receive.pdf` is a 5-page summary of what was changed to get receive working, how it was tested, and how to install it (written for hams who don't use GitHub).
 
+`Pocket-Pico-HF-Stuck-Transmit-Fix.pdf` is a short summary of the fix for the TNC freezing with PTT stuck on when it saved to flash during a transmission (pull request pfiliberti/pico_tnc#11).
+
 `hf-packet-test-10-packets.wav` is the test signal used to check 300 baud HF receive on the Pocket Pico (branch `hf-receive`, pull request pfiliberti/pico_tnc#10).
 
 - 10 AX.25 UI packets, `N7WDZ>TEST:Pico HF receive test packet 1 of 10` through `10 of 10`
